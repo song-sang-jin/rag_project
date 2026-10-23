@@ -1,0 +1,28 @@
+{
+  "modules": {
+    "수집": "youth_rag/documents.py",
+    "정책 API": "youth_rag/api.py",
+    "색인 및 검색": "youth_rag/store.py",
+    "생성 및 그래프": "youth_rag/service.py",
+    "UI": "app.py"
+  },
+  "external_calls": {
+    "policy_api": "간격/5회 재시도/User-Agent 있음",
+    "web_search": "Tavily 요청에 별도 재시도·간격 없음",
+    "web_body": "1초 간격/User-Agent/robots 확인, 재시도 없음",
+    "llm": "timeout 60초, max_retries=2"
+  },
+  "sources_document": "docs/SOURCES.md",
+  "source_review_note": "이용 조건 기록 있음. UI 수동등록 안내는 현재 구현과 달라 갱신 필요",
+  "screenshot_files": [
+    "docs\\screenshots\\streamlit.png"
+  ],
+  "submission_files": [
+    "2회차_셀프·상호_체크리스트.pdf",
+    "AI코어프로젝트_2회차_요구사항정의서_배포용.pdf",
+    "README.md",
+    "docs/DESIGN.md",
+    "docs/REQUIREMENTS.md",
+    "docs/VALIDATION.md"
+  ]
+}

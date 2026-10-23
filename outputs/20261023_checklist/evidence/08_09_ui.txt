@@ -1,0 +1,217 @@
+Browser tab: 3, Title: "청년이음 · 광주 정책 길잡이", URL: "http://127.0.0.1:8501/".
+0 AXWebArea 청년이음 · 광주 정책 길잡이, URL: 127.0.0.1:8501/
+	1 container
+		2 container
+			3 container
+				4 heading 정책 둘러보기, Value: 2
+					5 text 정책 둘러보기
+				6 text 정책 기본정보 색인
+				7 text 986
+				8 text 상세 근거 청크
+				9 text 14
+				10 container
+					11 combo box (collapsed, settable) Description: 관심 분야, Value: 전체, ID: react-aria9225971489-:r10:, Secondary Actions: Expand
+					12 pop up button (collapsed) Description: Open, ID: react-aria9225971489-:rs:, Secondary Actions: Expand
+				13 container
+					14 combo box (collapsed, settable) Description: 정책 제공기관, Value: 전체, ID: react-aria9225971489-:r1e:, Secondary Actions: Expand
+					15 pop up button (collapsed) Description: Open, ID: react-aria9225971489-:r1a:, Secondary Actions: Expand
+				16 container
+					17 text field (settable) Description: 정책명 검색, Value: 구직활동수당, ID: :rd:
+				18 container
+					19 combo box (collapsed, settable) Description: 질문할 정책, Value: (1차) 2026 광주청년 구직활동수당 및 활동지원사업 · 212937, ID: react-aria9225971489-:r1s:, Secondary Actions: Expand
+					20 pop up button (collapsed) Description: Open, ID: react-aria9225971489-:r1o:, Secondary Actions: Expand
+				21 button (collapsed) keyboard_arrow_right 검색 설정, Secondary Actions: Expand
+					22 text keyboard_arrow_right
+					23 text 검색 설정
+			24 container
+				214 button keyboard_double_arrow_right
+				25 button Deploy
+				26 pop up button (collapsed) Description: Main menu, Secondary Actions: Expand
+			27 container
+				28 heading 🌱 청년이음, Value: 1, ID: aee7d8ef
+					29 text 🌱 청년이음
+					30 link Description: Link to heading, Value: 127.0.0.1:8501/#aee7d8ef
+				31 text 광주 청년을 위한 지역·중앙부처 정책 길잡이
+				32 text 주거부터 취업까지, 내 상황에 맞는 정책을 찾고 근거를 확인하세요.
+				33 text 정책 안내는 최종 자격 판정이나 금융·법률 전문가의 조언을 대신하지 않습니다. 신청 전 해당 연도·모집 차수의 공식 공고와 담당 기관을 확인하세요.
+				34 tab group react-aria9225971489-:r4:
+					35 tab (selectable, settable, boolean) 내 조건으로 찾기, ID: react-aria9225971489-:r4:-tab-0, Value: 0
+내 조건으로 찾기
+					36 tab (selected, settable, boolean) 정책에 질문하기, ID: react-aria9225971489-:r4:-tab-1, Value: 1
+정책에 질문하기
+					37 tab (selectable, settable, boolean) 데이터 준비, ID: react-aria9225971489-:r4:-tab-2, Value: 0
+데이터 준비
+				39 container Description: 정책에 질문하기, ID: react-aria9225971489-:r4:-tabpanel-1
+					40 heading (1차) 2026 광주청년 구직활동수당 및 활동지원사업, Value: 3, ID: 1-2026
+						41 text (1차) 2026 광주청년 구직활동수당 및 활동지원사업
+						42 link Description: Link to heading, Value: 127.0.0.1:8501/#1-2026
+					43 container
+						44 text ✅ 26년도 광주청년 구직활동수당 및 활동지원 사업을 시작합니다! 광주 미취업 청년들의 구직활동에 필요한 비용과 구직 역량강화 프로그램을 지원하여 청년의 지역사회 진입과 자립을 촉진합니다 (구)광주청년드림수당 및 활동지원사업
+					45 container
+						46 text 신청 기간 · 원본
+						47 text 미기재 · 확인 필요
+					48 container
+						49 text 주관: 전남광주통합특별시 최종수정: 2026-04-29 15:57 :49
+					50 button (collapsed) keyboard_arrow_right 정책 기본 정보와 원문, Secondary Actions: Expand
+						51 text keyboard_arrow_right
+						52 text 정책 기본 정보와 원문
+					53 button 신청 준비 질문하기
+						54 text 신청 준비 질문하기
+					55 button 이 정책 대화 지우기
+						56 text 이 정책 대화 지우기
+					57 container
+						58 text entry area (settable) 자격 조건, 중복 참여, 준비서류를 물어보세요.
+						59 button (disabled) Send message
+					60 text face
+					61 container Chat message from user
+						62 text 이 정책의 기본 지원내용과 2025년 3차 공고의 제출서류를 구분해서 근거와 함께 4줄로 알려줘.
+					63 text smart_toy
+					64 container Chat message from assistant
+						65 button (collapsed) check 답변 완료, Secondary Actions: Expand
+							66 text check
+							67 text 답변 완료
+						68 container
+							69 text (1) 
+							70 text 기본 지원내용(2026, (1차))
+							71 text : 구직활동비 월 50만원 × 6개월, 1인당 최대 300만원 지원. [근거 1]
+							72 text (2) 
+							73 text 기본 지원내용(프로그램)
+							74 text : 구직역량 강화 프로그램(1회 의무 참여 필요) 지원. [근거 1]
+							75 text (3) 
+							76 text 2025년 3차 공고 제출서류(온라인 제출)
+							77 text : 지원신청서, 구직활동계획서. [근거 1]
+							78 text (4) 
+							79 text 2025년 3차 공고 제출서류(발급 후 업로드)
+							80 text : 최종학력증명서, 주민등록표 등본, 가족관계증명서(상세), (본인·가구원) 건강보험자격확인 통보서·건강보험료 납부 확인서·동의서 등. [근거 1] ※ 요청하신 “2025년 3차 공고” 문서가 실제로 별도 공고문(연도/차수) 기준으로 맞는지, 현재 답변 근거에는 
+							81 text ‘(1차) 2026’과 ‘제출서류’가 함께 제시
+							82 text 되어 있어 
+							83 text 문서 내 차수 매칭은 문서에서 확인되지 않습니다
+							84 text . 정확한 2025년 3차 공고 원문을 확인해 주셔야 합니다.
+						89 container
+							90 button (expanded) keyboard_arrow_down [근거 1] (1차) 2026 광주청년 구직활동수당 및 활동지원사업 · 항목 메타데이터, Secondary Actions: Collapse
+								91 text keyboard_arrow_down
+								92 text [근거 1] (1차) 2026 광주청년 구직활동수당 및 활동지원사업 · 항목 메타데이터
+							93 text 정책명: (1차) 2026 광주청년 구직활동수당 및 활동지원사업 정책번호: 20260429005400212937 분야: 일자리 세부분야: 취업 키워드: 인턴 설명: ✅ 26년도 광주청년 구직활동수당 및 활동지원 사업을 시작합니다!
+							94 container
+								95 text 광주 미취업 청년들의 구직활동에 필요한 비용과 구직 역량강화 프로그램을 지원하여 청년의 지역사회 진입과 자립을 촉진합니다 (구)광주청년드림수당 및 활동지원사업 지원 내용: 구직활동비 월 50만원 x 6개월(1인당 최대 300만원) - 사업참여 중 취·창업으로 중단 시 취·창업 성공수당 지원 구직역량 강화프로그램(1회 의무 참여 필요) 주관기관: 전남광주통합특별시 운영기관: 전남광주통합특별시 거주지역코드: 12210,12240,12270,12300,12330 연령제한 코드(원본): Y 최소연령(원본): 19 최대연령(원본): 39 소득조건 코드(원본): 0043001 [공식 코드표: 무관] 소득최소금액(원본): 0 소득최대금액(원본): 0 소득 상세조건: 미기재(확인 필요) 취업요건 코드(원본): 0013010 [공식 코드표: 제한없음] 학력요건 코드(원본): 0049010 [공식 코드표: 제한없음] 추가 자격조건: 미기재(확인 필요) 참여 제한 대상: 미기재(확인 필요) 신청 기간: 미기재(확인 필요) 사업 시작일: 20260301 사업 종료일: 20260831 기간 기타사항: 연중 신청 방법: 광주청년통합플랫폼 홈페이지(
+								96 link Description: http://youth.gwangju.go.kr/, Value: youth.gwangju.go.kr/
+								97 text ) 온라인 신청 ※ 신청기간 상단 신청하기 버튼 클릭 심사 방법: ▪️ 일시 : 2026. 02.23.(월)예정 ▪️ 방법 : 시청 홈페이지 고시공고, 광주청년플랫폼 마이페이지 확인,선정자 개인별 문자 통보 ▪️ 선발자 온라인 예비교육 : 최종 선정자 발표 후 별도 통보
+							98 content list
+								99 container
+									100 AXListMarker • 
+									101 text 교육내용 : 사업설명, 유의사항, 카드발급 안내, 보고서 작성요령 등 안내 ▪️ 선발자 필수사항
+							102 content list
+								103 container
+									104 AXListMarker 1. 
+									105 text ‘서약서’ 광주청년플랫폼 홈페이지 제출
+								106 container
+									107 AXListMarker 2. 
+									108 text 사업 시작시점 설문조사 응답지 제출
+								109 container
+									110 AXListMarker 3. 
+									111 text 선발자 대상 안내 된 기한 내 체크카드(클린카드) 발급 필수(비대면 발급 어려울 경우, 지정된 은행 방문 필요)
+							112 content list
+								113 container
+									114 AXListMarker • 
+									115 text 카드 미발급자 선정 자동 취소(지원금 지급 불가) ※ 비대면 발급 가능 자 : 광주은행 기존(마케팅 동의(카드‧SMS 등)) 고객 ※ 지원금 카드 발급 가능 지정 은행 안내 별도 예정 제출서류: ⚠️중요⚠️ ▪️ 모든 제출 서류는 예외 없이 공고일(26.01.26)이후 발급분만 인정 됩니다.
+							116 text (온라인 제출) ▪️ 지원신청서 : 작성 및 체크사항 누락 없이 작성 ▪️ 구직활동계획서 : 구직분야 및 지원동기, 성장모습 등, 월별 목표 및 활동내용 등 상세 작성
+							117 text (발급 후 업로드)
+							118 content list
+								119 container
+									120 AXListMarker 1. 
+									121 text 최종학력증명서 : ▪️ 가장 마지막 입학 학교를 최종 학교로 간주 ▪️ 해외 학교의 경우 번역 또는 공증 또는 외국번역행정사 번역 필요
+								122 container
+									123 AXListMarker 2. 
+									124 text 주민등록표 등본 ▪️ 본인 기준 상세증명서로 발급(모든 정보 표기) ▪️ 세대구성 사유 및 일자, 세대주와의 관계, 세대주 및 세대원 전원 성명, 본인 주민등록번호, 전입일/변동일 등 ▪️ 초본 제출 유의
+								125 container
+									126 AXListMarker 3. 
+									127 text 가족관계증명서(상세) ▪️ 발급 기준(부모 또는 본인) 및 발급 유형(일반, 특정 발급 않도록) 유의 ▪️ (본인이 미혼일 경우) 부 또는 모 기준 상세 발급 ▪️ (본인이 기혼일 경우) 본인 기준 상세 발급
+								128 container
+									129 AXListMarker 4. 
+									130 text (본인 및 가구원) 건강보험자격확인 통보서 ▪️ 가구원 모두의 자격이 확인될 수 있도록 발급 ▪️ 1장 이상일 경우 pdf 병합 또는 zip으로 제출 ▪️ 수급자일 경우 수급자 증명서와 의료급여증명서로 대체 제출
+								131 container
+									132 AXListMarker 5. 
+									133 text (본인 및 가구원) 건강보험료 납부 확인서 ▪️ 소득산정 가구원의 모두 1개월 납부내역 확인필요. *2025년도 11월 ▪️ 1장 이상일 경우 pdf 병합 또는 zip으로 제출 ▪️ 수급자일 경우 수급자 증명서와 의료급여증명서로 대체 제출
+								134 container
+									135 AXListMarker 6. 
+									136 text (본인 및 가구원) 개인정보 수집·이용·제공 및 고유식별정보 처리 동의서 ▪️ 공고문 서식 다운로드 후 본인 및 가구원 자필 서명 필수
+							137 text [특정 상황에 해당하는 경우에만 제출] 7. 건강보험 자격득실 확인서 ▪️ 건강보험자격확인(통보)서의 자격취득일이 2025.11.02. 이후 발생자(본인 및 가구원 포함) ▪️ 2개 이상의 사업장으로 건강보험 가입된 경우
+							138 content list
+								139 container
+									140 AXListMarker 8. 
+									141 text 근로계약서 ▪️ 고용보험(상용)에 가입되어 있으나 주 30시간 미만 근로일 경우 ▪️ 인적사항 및 근로 시간, 조건, 기간 등 기재된 사본
+								142 container
+									143 AXListMarker 9. 
+									144 text 휴·폐업 증명서 ▪️ 사업자등록을 보유하고 있으나, 공고일 이전 휴·폐업 신고 사실이 있는 경우
+								145 container
+									146 AXListMarker 10. 
+									147 text 주민등록표 초본 ▪️ 공고일 이후 광주광역시 내 이전 있는 경우(공고일 이후 타지에서 광주광역시 전입 지원 불가) ▪️ 본인이 개명한 경우 기타사항: ▪️ 가구원 수 : ⭐가족관계증명서⭐기준
+							148 content list
+								149 container
+									150 AXListMarker • 
+									151 text (신청자 본인) 미혼 및 이혼 : (필수) 부, 모, 본인 + (선택) (등본상 함께 거주하는) 형제·자매
+								152 container
+									153 AXListMarker • 
+									154 text (신청자 본인) 기혼(혼인신고 완료자) : (필수) 본인, 배우자, 자녀 + (선택) (등본상 함께 거주하는) 본인 부모
+							155 text ▪️지원제외 대상 : 공고일(26.01.26.)기준
+							156 content list
+								157 container
+									158 AXListMarker • 
+									159 text 참여요건을 충족하지 못한 자(연령, 취·창업, 재학생, 중위소득 초과 등)
+								160 container
+									161 AXListMarker • 
+									162 text 생계급여, 조건부 생계급여 수급자(단, 의료·교육·주거급여만 받는 경우 가능)
+								163 container
+									164 AXListMarker • 
+									165 text (대체 복무 포함) 군 복무자
+								166 container
+									167 AXListMarker • 
+									168 text 2018년 이후 광주청년구직활동수당(광주청년드림수당) 참여자 및 중도포기자(2018, 2020~2025년) *생애 1회 지원
+								169 container
+									170 AXListMarker • 
+									171 text 타 지자체 청년수당 참여자(서울, 전남, 부산, 인천, 광주 광산구, 광주 서구 등)
+								172 container
+									173 AXListMarker • 
+									174 text 시 유사사업 참여중인 자(광주청년○○사업 : 광주청년일경험드림, 청년13(일+삶)통장 등)
+							175 text ▪️동시참여 제한
+							176 content list
+								177 container
+									178 AXListMarker • 
+									179 text 고용노동부 국민취업지원제도Ⅰ유형(구직촉진수당) 및 Ⅱ유형(취업활동비용·취업지원서비스) 참여자 및 사업기간(지원+사후관리) 종료 후 6개월 미경과자 *2025년 7월 27일 이전 종료자
+								180 container
+									181 AXListMarker • 
+									182 text 고용노동부 미래내일일경험사업(인턴형, 프로젝트형) 참여자
+								183 container
+									184 AXListMarker • 
+									185 text 실업급여 수급자
+								186 container
+									187 AXListMarker • 
+									188 text (주 30시간 이상) 재정지원 직접 일자리 사업 참여자
+								189 container
+									190 AXListMarker • 
+									191 text 청년도전지원사업(장기·중기), 청년 농업인 육성정책, 청년 어업인 영어 정착자금
+								192 container
+									193 AXListMarker • 
+									194 text 희망사다리 장학금(1·2유형)
+								195 container
+									196 AXListMarker • 
+									197 text 고졸 취업연계 장려금/장학금
+								198 container
+									199 AXListMarker • 
+									200 text 제대군인 전직지원금
+								201 container
+									202 AXListMarker • 
+									203 text 창작준비금/지원금 등
+								204 container
+									205 AXListMarker • 
+									206 text 정부지원(내일배움카드) 훈련 장려금 수급자
+							207 content list
+								208 container
+									209 AXListMarker • 
+									210 text 계좌발급 및 훈련참여는 가능하나, 훈련장려금 동시 수급 불가 원본 최종수정일: 2026-04-29 15:57 :49
+							211 link Description: 원문 확인, Value: youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20260429005400212937
+							212 container
+								213 text 수집: 2026-10-22T09:19 :57 +09 :00
+						88 text 처리 40.8초 · 검색어 캐시 0건
+
+The focused UI element is 90 button (expanded) keyboard_arrow_down [근거 1] (1차) 2026 광주청년 구직활동수당 및 활동지원사업 · 항목 메타데이터, Secondary Actions: Collapse

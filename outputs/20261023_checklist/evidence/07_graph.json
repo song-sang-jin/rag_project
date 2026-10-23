@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    "__start__",
+    "retrieve",
+    "generate",
+    "__end__"
+  ],
+  "edges": [
+    {
+      "source": "__start__",
+      "target": "retrieve"
+    },
+    {
+      "source": "retrieve",
+      "target": "generate"
+    },
+    {
+      "source": "generate",
+      "target": "__end__"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "checked_at": "2026-10-23T15:53:27+09:00",
+  "rows": [
+    {
+      "number": 1,
+      "status": "통과",
+      "evidence": "../../docs/screenshots/09_validation.png\nevidence/recheck/01_metadata.json",
+      "note": "원본·고유 ID·기본정보 색인 986건. 실제 데이터 준비 화면에서 중앙부처 657건과 필드 누락 집계 확인."
+    },
+    {
+      "number": 2,
+      "status": "통과",
+      "evidence": "evidence/recheck/02_reindex.json",
+      "note": "동일 정책 집합을 두 번 색인. 986 → 986 → 986건으로 유지."
+    },
+    {
+      "number": 3,
+      "status": "통과",
+      "evidence": "evidence/recheck/03_04_live_1.json",
+      "note": "실제 검색어 3개와 후보·선별·제외·수집 실패 상태를 Trace로 확인. 이번 검색의 자체 문서 판정은 0건."
+    },
+    {
+      "number": 4,
+      "status": "통과",
+      "evidence": "evidence/recheck/03_04_live_2.json\nevidence/recheck/automated_tests.txt",
+      "note": "동일 질문의 검색어 캐시 3건 재사용. 성공 본문 재사용은 회귀 테스트에서도 확인. 수집 실패 URL은 재시도될 수 있음."
+    },
+    {
+      "number": 5,
+      "status": "통과",
+      "evidence": "evidence/recheck/05_chunk_settings.json",
+      "note": "운영 DB를 변경하지 않고 별도 DB에서 100/20과 500/50 설정으로 직접 재색인해 청크 수 변화 확인."
+    },
+    {
+      "number": 6,
+      "status": "통과",
+      "evidence": "evidence/recheck/06_16_retrieval.json",
+      "note": "동일 질문의 Top-k=2와 6에서 근거 ID 목록과 개수가 달라짐. 기본정보는 양쪽 모두 포함."
+    },
+    {
+      "number": 7,
+      "status": "통과",
+      "evidence": "evidence/recheck/07_graph.json",
+      "note": "실제 LangGraph 구조에서 retrieve → generate 노드와 연결 확인."
+    },
+    {
+      "number": 8,
+      "status": "통과",
+      "evidence": "../../docs/screenshots/04_checklist.png\n../../docs/screenshots/05_source.png",
+      "note": "실제 답변의 [근거 1]과 표시 문서 일치. 펼친 본문·유형·수집일·원문 확인 링크를 직접 확인."
+    },
+    {
+      "number": 9,
+      "status": "통과",
+      "evidence": "../../docs/screenshots/06_unknown.png\nevidence/recheck/submission_tests.xml",
+      "note": "2025년 3차 공고 서류 질문에 일치 근거 미확보 시 확인 불가·무인용 안내. 범위 검사 회귀 테스트도 통과."
+    },
+    {
+      "number": 10,
+      "status": "통과",
+      "evidence": "evidence/recheck/submission_tests.xml",
+      "note": "최종 33개 자동 테스트에서 정책 전환·대화 격리 검사 통과. 실제 브라우저 정책 전환 전체 과정 캡처는 별도 미확보."
+    },
+    {
+      "number": 11,
+      "status": "통과",
+      "evidence": "../../docs/screenshots/08_explore.png\nevidence/recheck/submission_tests.xml",
+      "note": "최종 코드로 실제 주거지원 탐색·후보 이유·선택 버튼 확인. eligible=true만 허용하고 제외 설명 모순 항목 차단 테스트. 최종 자격 판정 아님."
+    },
+    {
+      "number": 12,
+      "status": "통과",
+      "evidence": "../../docs/screenshots/04_checklist.png\nevidence/recheck/submission_tests.xml",
+      "note": "2026년 11기 광주 청년 13통장 신청 준비 실제 실행: 5개 항목·근거1 표시. 구조화 목록·유효 인용 회귀 테스트 통과."
+    },
+    {
+      "number": 13,
+      "status": "통과",
+      "evidence": "../../docs/screenshots/03_progress.png\nevidence/recheck/submission_tests.xml",
+      "note": "실제 외부 검색 진행 상태 확인. 키·색인 누락 안내는 AppTest로 검증. 누락 상태의 실제 브라우저 캡처는 미확보."
+    },
+    {
+      "number": 14,
+      "status": "통과",
+      "evidence": "../../docs/screenshots/01_home.png",
+      "note": "실제 홈에서 최종 자격 판정 및 금융·법률 전문가 조언을 대신하지 않는다는 안내 확인."
+    },
+    {
+      "number": 15,
+      "status": "해당없음",
+      "evidence": "",
+      "note": "사용자 요청에 따라 Streamlit 사용. HTML/CSS/JavaScript 직접 구현 심화는 선택하지 않음."
+    },
+    {
+      "number": 16,
+      "status": "통과",
+      "evidence": "evidence/recheck/06_16_retrieval.json",
+      "note": "동일 질문·Top-k=6에서 similarity/MMR 근거 ID 목록을 비교. 실제 저장 자료가 늘어난 이번 실행에서는 두 결과가 달라짐."
+    },
+    {
+      "number": 17,
+      "status": "해당없음",
+      "evidence": "",
+      "note": "RAG 전후 대표 질문 5개 비교 심화(F2015)는 선택하지 않음."
+    },
+    {
+      "number": 18,
+      "status": "해당없음",
+      "evidence": "",
+      "note": "F2015 미선택으로 해당 비교 문서 제출 항목도 해당없음."
+    },
+    {
+      "number": 19,
+      "status": "통과",
+      "evidence": "evidence/recheck/ui_supplement.json",
+      "note": "실제 DB에 공식 HTML 17개·PDF 158개 청크가 함께 저장됨. 실제 저장된 메타데이터/HTML/PDF를 입력한 UI 구성요소 검사에서 유형별 제목·출처 표시 확인."
+    },
+    {
+      "number": 20,
+      "status": "통과",
+      "evidence": "../../docs/screenshots/04_checklist.png\nevidence/recheck/20_checklist_speed.json",
+      "note": "이번 실제 브라우저 신청 준비는 26.3초. 앞선 캐시 반복은 7.95초/6.22초. 캐시·사이트·모델에 따라 변하며 고정 시간 보장 아님."
+    },
+    {
+      "number": 21,
+      "status": "통과",
+      "evidence": "evidence/recheck/21_secret_scan.json\nevidence/recheck/ui_supplement.json",
+      "note": "설정된 실제 키 문자열 노출 0건(.env·가상환경 등 제외). 예외 상세 비노출 및 무인용 안내 재검증. 제출 시 .env 제외 필요."
+    },
+    {
+      "number": 22,
+      "status": "통과",
+      "evidence": "evidence/recheck/22_23_24_code_review.json",
+      "note": "수집 documents/api, 색인·검색 store, 생성 service/prompts, UI app으로 역할 분리 확인."
+    },
+    {
+      "number": 23,
+      "status": "통과",
+      "evidence": "evidence/recheck/submission_tests.xml\n../../docs/DESIGN.md",
+      "note": "최종 33개 테스트에 호스트 간격·일시 오류 재시도·Retry-After·PDF 종료 한도·배치 임베딩 포함. 통과 확인."
+    },
+    {
+      "number": 24,
+      "status": "통과",
+      "evidence": "../../README.md",
+      "note": "양식 기준인 출처·이용 조건 기록 확인. 실제 저장 출처, API 허락 범위, 원문·캐시·DB 재배포 제외 범위, robots·호출 정책을 README에 통합. 개별 문서 재배포 권한 전수 확보를 뜻하지 않음."
+    },
+    {
+      "number": 25,
+      "status": "통과",
+      "evidence": "evidence/recheck/submission_tests.xml\n../../docs/REQUIREMENTS.md",
+      "note": "최종 자동 테스트 33개 통과(실패·오류0). 연도·차수, 추천 제외 판정 회귀 검사와 실제 브라우저 확인. 미선택 심화와 제출 증빙은 구분."
+    },
+    {
+      "number": 26,
+      "status": "통과",
+      "evidence": "../../docs/REQUIREMENTS.md\n../../docs/screenshots/\nevidence/recheck/submission_tests.xml",
+      "note": "실제 앱 화면에 키/색인 누락 안내 추가. 반복 색인·청킹·검색어·그래프·UI 유형의 실제 검증 결과 화면도 첨부. 실제 사용자 화면과 격리/검증 화면을 구분해 증빙 목록에 기록."
+    },
+    {
+      "number": 27,
+      "status": "통과",
+      "evidence": "../../README.md\n../../docs/REQUIREMENTS.md\n../../docs/DESIGN.md",
+      "note": "설명 문서 3개로 통합: 요구사항 정의서(대조표·검증표·증빙 목록 포함), RAG 설계서, README. 소스·체크리스트·화면·로그는 별도 산출물로 보존."
+    }
+  ],
+  "counts": {
+    "통과": 24,
+    "해당없음": 3
+  },
+  "scope": "기존 셀프 점검 결과와 AI 모의 상호 피드백을 통합. 교육생 간 실제 상호 점검 아님.",
+  "author_name": "미제공: 앱 작성자 칸은 비워 둠",
+  "reviewer": "Codex (AI 모의 상호 점검)",
+  "notes": "24번은 기록 기준에 맞춰 재판정, 26번은 추가 화면 증빙 확보 후 통과. AI 모의 상호 점검."
+}

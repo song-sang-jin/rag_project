@@ -1,0 +1,19 @@
+{
+  "source_types": [
+    "항목 메타데이터",
+    "공식 웹문서"
+  ],
+  "source_labels": [
+    "정책 기본 정보와 원문",
+    "[근거 1] (1차) 2026 광주청년 구직활동수당 및 활동지원사업 · 항목 메타데이터",
+    "[근거 2] (3차) 2025 광주 청년구직활동수당 지원사업 · 추가 안내 · 공식 웹문서",
+    "검색 설정"
+  ],
+  "two_source_types_rendered": true,
+  "no_citation_notice": true,
+  "no_exception_tree": true,
+  "no_error_detail_leak": true,
+  "error_status": [
+    "답변 실패 · API·모델 설정과 네트워크를 확인하고 다시 시도하세요."
+  ]
+}

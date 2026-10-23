@@ -1,0 +1,15 @@
+{
+  "scope": "운영 설정을 바꾸지 않은 별도 DB 직접 실행",
+  "results": [
+    {
+      "chunk_size": 100,
+      "chunk_overlap": 20,
+      "chunks": 34
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 50,
+      "chunks": 6
+    }
+  ]
+}

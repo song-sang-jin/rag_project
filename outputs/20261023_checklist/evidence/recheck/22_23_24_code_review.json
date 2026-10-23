@@ -1,0 +1,31 @@
+{
+  "modules": {
+    "수집": "youth_rag/documents.py",
+    "정책 API": "youth_rag/api.py",
+    "색인 및 검색": "youth_rag/store.py",
+    "생성 및 그래프": "youth_rag/service.py",
+    "UI": "app.py"
+  },
+  "external_calls": {
+    "policy_api": "간격/5회 재시도/User-Agent 있음",
+    "web_search": "공통 HTTP: 호스트별 간격, 429/일시 5xx/연결 오류 재시도, Retry-After 준수",
+    "web_body": "공통 HTTP 재시도/간격/User-Agent/robots + 다운로드 제한 15초, PDF 별도 프로세스 5초/80페이지 제한",
+    "llm": {
+      "timeout_seconds": 30,
+      "max_retries": 1
+    }
+  },
+  "sources_document": "docs/SOURCES.md",
+  "source_review_note": "현재 자동 수집 구조와 호출 정책으로 갱신. 개별 사이트 이용조건 전수 확인은 아님",
+  "screenshot_files": [
+    "docs\\screenshots\\streamlit.png"
+  ],
+  "submission_files": [
+    "2회차_셀프·상호_체크리스트.pdf",
+    "AI코어프로젝트_2회차_요구사항정의서_배포용.pdf",
+    "README.md",
+    "docs/DESIGN.md",
+    "docs/REQUIREMENTS.md",
+    "docs/VALIDATION.md"
+  ]
+}
